@@ -1,0 +1,1754 @@
+.container {
+    font-family: SANS-SERIF;
+    font-size: 0.9em;
+    color: #bbb;
+    border-bottom: 1px solid #ac0000;
+    padding-bottom: 0.5rem;
+    background-image: url(/cutoff/images/default/bg_header.png) no-repeat center top;
+}
+
+.tabsummary #imagebox,
+.tabsummary div.imagebox {
+    margin: 0;
+    margin-top: 15px;
+}
+
+div#embedbuttons {
+    display: none;
+}
+
+#header a.logo {
+    height: 120px;
+    width: 310px;
+    background-size: contain;
+    top: 100px;
+    position: sticky;
+}
+
+#searchbox {
+    width: auto;
+    font-size: 12px;
+}
+
+#searchbox form {
+    float: right;
+    width: 240px;
+}
+
+#searchbox form.search input {
+    box-shadow: none;
+    width: 204px;
+    background: none !important;
+    padding-left: 5px;
+}
+
+#searchbox form.search input:hover,
+#searchbox form.search *:focus,
+#searchbox form.search *:focus-visible,
+#searchbox form.login input:hover,
+#searchbox form.login *:focus,
+#searchbox form.login *:focus-visible {
+    color: #000 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+#searchbox form.login input.button:hover {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+}
+
+#searchbox form.search input.button {
+    float: right;
+    padding: 0 5px;
+    border: none;
+    width: auto;
+}
+
+#searchbox form.login {
+    float: left;
+    width: auto;
+    background: transparent;
+    margin-right: 0;
+}
+
+#searchbox form.login input.text,
+#searchbox form.login input.password {
+    width: 100px !important;
+    background: #fff !important;
+    box-shadow: none;
+    border: none !important;
+    border-radius: 0 !important;
+    padding-left: 3px;
+    margin-left: 5px;
+}
+
+#searchbox form.login input.button {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #000 !important;
+    margin-left: 3px;
+    box-shadow: none;
+}
+
+#searchbox span.login {
+    color: #fff;
+    float: left;
+    font-size: 1.1em;
+    line-height: 21px;
+    margin-left: 16px;
+    height: 21px;
+    width: auto;
+    display: flex;
+}
+
+#searchbox span.guest a,
+#searchbox span.login a{
+    display: inline-flex;
+    float: none !important;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+
+#searchbox span.login a:first-child {
+    margin-left: 15px !important;
+}
+
+.twittericonsml,
+.steamiconsml,
+.facebookiconsml,
+.googleiconsml {
+    background: transparent;
+    margin: 2px 5px !important;
+    height: 18px !important;
+}
+
+.steamiconsml {
+    background-position: center;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_grey.svg) no-repeat;
+}
+
+.steamiconsml:hover {
+    background-position: center;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_icon.svg) no-repeat;
+}
+
+.twittericonsml {
+    background-position: center;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_grey.svg) no-repeat;
+}
+
+.twittericonsml:hover {
+    background-position: center;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_icon.svg) no-repeat;
+}
+
+.facebookiconsml {
+    background-position: center;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_grey.svg) no-repeat;
+}
+
+.facebookiconsml:hover {
+    background-position: center;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_icon.svg) no-repeat;
+}
+
+.googleiconsml {
+    background-position: center;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_grey.svg) no-repeat;
+}
+
+.googleiconsml:hover {
+    background-position: center;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_icon.svg) no-repeat;
+}
+
+div.headerbox {
+    background-color: transparent;
+    background-position: top left;
+    margin-top: 0;
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/YR_Redux_Banner.png) !important;
+    background-size: contain;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    padding-top: 7rem;
+}
+
+div.headerbox div.headercorner {
+    border: none;
+    border-bottom: none;
+    padding: 210px 0 0 0;
+}
+
+div.headerbox div.title {
+    background: none;
+    padding: 0;
+}
+
+div.headerbox h2, div.headerbox h3 {
+    text-align: center;
+}
+
+div.headerbox h2 a, div.headerbox h3 a {
+    color: #bbb;
+}
+
+div.headerbox h2{
+    display: none;
+}
+
+div.headerbox h3 {
+    display: none;
+    padding: 10px 0;
+    color: #bbb;
+}
+
+.headercorner nav {
+    border-top: 1px solid #303030;
+    border-left: 1px solid #313131;
+    border-right: 1px solid #000000;
+    border-radius: 8px 8px 0 0;
+}
+
+div.headerbox ul.menu {
+    background: #000;
+    list-style: none;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(170,0,0,1) 100%);
+    border-image-slice: 1;
+    border-radius: 8px 8px 0 0;
+}
+
+div.headerbox ul.menu li {
+    line-height: 1rem;
+    border-left: none;
+}
+
+div.headerbox ul.menu li a {
+    color: #c7ba7f;
+    font-size: 1.3em;
+    padding: 8px 15px;
+    margin-right: -5px;
+    display: inline-block;
+    border-left: 1px solid #313131;
+}
+
+div.headerbox ul.menu li:last-of-type a {
+    border-right: 1px solid #313131;
+}
+
+div.headerbox ul.menu li a:hover {
+    color: #ff0000;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,0.15) 100%);
+    text-decoration: none;
+}
+
+div.headerbox ul.menu li.on a {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(170,0,0,0.85) 100%);
+    color: #dfd08d;
+}
+
+div.headerbox ul.menu li.on a:hover {
+    color: #dfd08d !important;
+}
+
+div.headerbox ul.menu li.off a {
+    color: #555;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+div.headerbox ul.menu li.off a:hover {
+    color: #555;
+}
+
+div.imagebox {
+    background: #000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    box-shadow: 3px 3px 6px 0px rgb(0 0 0 / 25%);
+}
+
+div.imagebox ul {
+    border-top: 1px solid #292929;
+}
+
+div.imagebox li.previous {
+    box-shadow: -1px 0px 0px 0px #292929;
+}
+
+div.imagebox li.on a {
+    background-color: transparent;
+}
+
+div.imagebox li.previous a,
+div.imagebox li.next a {
+    transition: none;
+}
+
+div.imagebox a:hover img {
+    outline: 1px solid #ac0000;
+    transition: none;
+}
+
+div.imagebox a.add {
+    color: #bbb;
+    outline: 1px solid #292929;
+}
+
+div.imagebox a.add:hover,
+div.imagebox a.add:focus,
+div.imagebox a.add:focus-visible {
+    outline: 1px solid #ac0000 !important;
+}
+
+div.imagebox li.on img,
+div.imagebox li.deleted img {
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+
+div.normalbox div.mediaviewer div.media {
+    padding: 0 0 2px 0;
+    border-top: none;
+}
+
+div.normalbox div.mediaviewer .mediaprevious,
+div.normalbox div.mediaviewer .medianext {
+    width: 24px !important;
+    padding: 0;
+    top: 40%;
+    text-indent: -9999px;
+}
+
+div.normalbox div.mediaviewer .medianext {
+    background-position: 2px -61px;
+    right: 0;
+    padding-right: 30px;
+}
+
+div.normalbox div.mediaviewer .mediaprevious {
+    left: 0;
+    padding-left: 30px;
+    background-position: 0px -115px;
+}
+
+.mediaembed,
+.mediashare,
+.mediahd {
+    display: none !important;
+}
+
+div.normalbox div.body {
+    background-color: #202020;
+    box-shadow: 3px 3px 6px 0px rgb(0 0 0 / 25%);
+    letter-spacing: 0.04rem;
+}
+
+div.normalcorner {
+    border-top: 1px solid #303030;
+    border-left: 1px solid #292929;
+    border-right: 1px solid #000000;
+    background: transparent;
+}
+
+div.normalbox div.title {
+    padding: 5px 10px 6px 10px;
+    background: #000;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(170,0,0,1) 100%);
+    border-image-slice: 1;
+}
+
+div.normalbox div.title span.heading {
+    color: #c7ba7f;
+    font-variant: all-small-caps;
+    letter-spacing: 0.08rem;
+}
+
+div.normalbox div.title span.options a{
+    margin-top: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+    transition: color 0.3s ease-out, background 0.3s ease-out;
+}
+
+span.options a.addicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Add_Icon.svg) no-repeat left center;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+span.options a.addicon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Add_Hover.svg) no-repeat left center;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+span.options a.editicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Icon.svg) no-repeat left center;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+span.options a.editicon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Hover.svg) no-repeat left center;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+span.options a.deleteicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Icon.svg) no-repeat left center;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+span.options a.deleteicon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat left center;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+span.options a.rssicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Rss_Icon.svg) no-repeat left center;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+span.options a.rssicon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Rss_Hover.svg) no-repeat left center;
+    background-size: 10px;
+    padding-left: 14px;
+}
+
+#commentform .tooltip {
+    height: 0.01rem !important;
+}
+
+div.comment {
+    width: 85%;
+    margin-top: 5px;
+}
+
+div.normalbox div.tablecomments div.row:nth-of-type(2n-1) div.content p,
+div.normalbox div.tablecomments div.row div.content p {
+    border-top: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+div.normalbox div.tablecomments div.clearer {
+    border-top: none;
+}
+
+div.normalbox div.tablecomments .row:not(:first-child) {
+    border-top: 1px solid rgb(0 0 0 / 50%) !important;
+    box-shadow: inset 0 1px 0 #292929;
+}
+
+div.normalbox div.tablecomments .row:nth-child(1) {
+    border-top: none !important;
+    box-shadow: none;
+    padding-top: 10px;
+}
+
+div.normalbox div.tablecomments div.reply1,
+div.normalbox div.tablecomments div.reply2,
+div.normalbox div.tablecomments div.reply3,
+div.normalbox div.tablecomments div.reply4,
+div.normalbox div.tablecomments div.reply5,
+div.normalbox div.tablecomments div.reply6,
+div.normalbox div.tablecomments div.reply7,
+div.normalbox div.tablecomments div.reply8 {
+    border-top: 1px solid rgb(0 0 0 / 50%) !important;
+    box-shadow: inset 0 1px 0 #292929;
+    margin-left: 0;
+    box-shadow: none;
+}
+
+div.normalbox div.tablecomments div.reply1:before,
+div.normalbox div.tablecomments div.reply2:before,
+div.normalbox div.tablecomments div.reply3:before,
+div.normalbox div.tablecomments div.reply4:before,
+div.normalbox div.tablecomments div.reply5:before,
+div.normalbox div.tablecomments div.reply6:before,
+div.normalbox div.tablecomments div.reply7:before,
+div.normalbox div.tablecomments div.reply8:before {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/reply_comment_icon.svg);
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-position: left center;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    top: 32px;
+}
+
+div.normalbox div.tablecomments a.avatar[title=CnC-RaVaGe] {
+    background: transparent;
+    padding: 0;
+    margin: 3px;
+    outline: 1px solid #f00;
+}
+
+div.normalbox div.tablecomments a.avatar {
+    display: block;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+    border: 1px solid #313131;
+    outline: 1px solid #000;
+}
+
+div.normalbox div.tablecomments span.online {
+    background: transparent;
+    width: 50px;
+    margin-left: 4px;
+    color: #9c3;
+    display: none;
+}
+
+div.normalbox div.tablecomments span.developer {
+    display: none;
+}
+
+.tablecomments .content time {
+    float: right;
+}
+
+
+#tagsform .row {
+    width: fit-content;
+    float: left;
+}
+
+#tagsform .row a {
+    color: #888;
+}
+
+#tagsform .row:last-child {
+    width: auto;
+    float: none;
+}
+
+#tagsform .tagaction {
+    display: none;
+}
+
+#tagsform .tagaction.editicon {
+    margin-left: 5px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/info_icon2.svg) no-repeat;
+    background-position: center;
+}
+
+#tagsform .tagaction.editicon:hover {
+    margin-left: 5px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/info_hover.svg) no-repeat;
+    background-position: center;
+}
+
+#tagsform .tagaction.karmagoodicon {
+    margin-left: 5px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretup_icon2.svg) no-repeat;
+    background-position: center;
+}
+
+#tagsform .tagaction.karmagoodicon :hover {
+    margin-left: 5px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretup_hover.svg) no-repeat;
+    background-position: center;
+}
+
+#tagsform .tagaction.karmabadicon {
+    margin-left: 5px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretdown_icon2.svg) no-repeat;
+    background-position: center;
+}
+
+#tagsform .tagaction.karmabaddicon :hover {
+    margin-left: 5px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretdown_hover.svg) no-repeat;
+    background-position: center;
+}
+
+div.normalbox div.tablecomments span.actions a, div.normalbox div.tablecomments span.actions span {
+    color: #999;
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.container:after {
+    content: 'Yuris Revenge Redux Mod and ModDB custom theme created by CnC-RaVaGe.' !important;
+    text-align: center;
+    color: #4a4a4a;
+    display: block;
+    height: auto !important;
+    padding: 15px;
+    visibility: visible !important;
+}
+
+div.normalbox div.tablecomments span.karma {
+    font-size: 0;
+}
+
+div.normalbox div.tablecomments span.actions .karma:before {
+    content: '';
+    padding-right: 30px;
+    bottom: 0px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/ellipsis_icon.svg) no-repeat;
+    border: 1px solid #333333;
+    background-position: center;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+div.normalbox div.tablecomments .row:hover span.actions .karma:before {
+    display: none;
+}
+
+div.normalbox div.tablecomments .row:hover {
+    background-color: #191919 !important;
+}
+
+div.normalbox div.tablecomments .row:hover span.actions a.editicon,
+div.normalbox div.tablecomments .row:hover span.actions a.entericon,
+div.normalbox div.tablecomments .row:hover span.actions a.deleteicon {
+    display: block;
+}
+
+div.normalbox div.tablecomments span.actions a.editicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Icon.svg) no-repeat;
+    background-size: 12px;
+    background-position: 0px 1px;
+    padding: 0 0 0 17px;
+    display: none;
+}
+
+div.normalbox div.tablecomments span.actions a.editicon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Hover.svg) no-repeat;
+    background-size: 12px;
+    background-position: 0px 1px;
+}
+
+div.normalbox div.tablecomments span.actions a.entericon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/reply_icon.svg) no-repeat;
+    background-size: 13px;
+    background-position: 1px 1px;
+    padding: 0 0 0 19px;
+    margin-left: 15px;
+    display: none;
+}
+
+div.normalbox div.tablecomments span.actions a.entericon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/reply_icon_hover.svg) no-repeat;
+    background-size: 13px;
+    background-position: 1px 1px;
+}
+
+div.normalbox div.tablecomments span.actions a.deleteicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Icon.svg) no-repeat;
+    background-size: 11px;
+    background-position: 0px 0px;
+    padding: 0 0 0 16px;
+    margin-left: 15px;
+    display: none;
+}
+
+div.normalbox div.tablecomments span.actions a.deleteicon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat;
+    background-size: 11px;
+    background-position: 0px 0px;
+}
+
+div.normalbox div.tablecomments span.actions a.karmagoodicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/voteup_icon.1.svg) no-repeat;
+    background-size: 12px;
+    background-position: 5px 0px;
+    padding: 0 5px 0 15px;
+    width: auto;
+    margin-left: 15px;
+    display: none;
+}
+
+div.normalbox div.tablecomments span.actions a.karmagoodicon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/voteup_hover.1.svg) no-repeat;
+    background-size: 12px;
+    background-position: 5px 0px;
+}
+
+div.normalbox div.tablecomments span.actions a.karmabadicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/votedown_icon.1.svg) no-repeat;
+    background-size: 12px;
+    background-position: 5px 4px;
+    padding: 0 5px 0 15px;
+    width: auto;
+    margin: 0 5px;
+    display: none;
+}
+
+div.normalbox div.tablecomments span.actions a.karmabadicon:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/votedown_hover.1.svg) no-repeat;
+    background-size: 12px;
+    background-position: 5px 4px;
+}
+
+div.normalbox div.tableform input.file {
+    width: 305px;
+    height: auto;
+    font-size: inherit;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    background: #1E1E1E !important;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #ddd;
+}
+
+div.normalbox div.tableform input.file:hover {
+    outline: 1px solid #ac0000;
+    cursor: pointer;
+}
+
+div.normalbox div.tableform select.select,
+.amcharts-data-set-select {
+    width: 305px;
+    height: 25px;
+    font-size: inherit;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 4px;
+    background: transparent;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #ddd;
+}
+
+div.normalbox div.tableform select.select:hover,
+.amcharts-data-set-select {
+    background: rgba(255,255,255,0.1) !important;
+    border: 1px solid #ff0000;
+}
+
+div.normalbox div.tableform select.select option,
+.amcharts-data-set-select option {
+    background: #161616;
+    color: #ddd;
+    font-weight: normal !important;
+    padding: 3px 5px !important;
+}
+
+#modsinfo span.options {
+    display: none;
+}
+
+#modsinfo div.inner img {
+    content: url(https://media.moddb.com/images/mods/1/51/50389/profile/YR_Icon2.png);
+    width: 24px;
+}
+
+#modsinfo .row:nth-child(8) h5:after {
+    content: 'Mod theme';
+    display: flex;
+    padding-top: 25px;
+}
+
+#modsinfo .row:nth-child(8) span:after {
+    content: 'Yuris Revenge Redux';
+    display: flex;
+    padding-top: 25px;
+    flex-direction: column;
+}
+
+#downloadsinfo div.row:nth-child(11) {
+    padding: 5px 10px 1em 14px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(0 0 0 / 50%) !important;
+    box-shadow: inset 0 1px 0 #313131;
+}
+
+#downloadmirrorstoggle {
+    background: transparent;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 5px 15px;
+    width: 113px;
+    text-align: right;
+    text-decoration: none !important;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    margin-top: 10px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/download_icon.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 15px 5px !important;
+    background-size: 16px !important;
+}
+
+#downloadmirrorstoggle:hover {
+    background: rgba(255,255,255,0.1) url(https://media.moddb.com/images/mods/1/51/50389/profile/download_icon.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 15px 5px !important;
+    background-size: 16px !important;
+    border: 1px solid #ff0000;
+    color: #ddd !important;
+}
+
+.table.tablemenu a {
+    text-decoration: underline !important;
+}
+
+.amChartsCompareList {
+    border-color: #313131 !important;
+}
+
+.amcharts-compare-item-div:hover {
+    background-color: #ac0000 !important;
+    color: #fff !important;
+}
+
+div.normalbox div.tableform ul.exhelper {
+    margin-bottom: 1.5rem;
+}
+
+div.normalbox div.tableform div.rowtinymce .mce-toolbar-grp {
+    background-color: rgba(255,255,255,0.02);
+    border-top: 1px solid #292929;
+}
+
+.mce-ico {
+    color: #ddd;
+}
+
+.mce-menubtn span {
+    color: #ddd;
+}
+
+.mce-btn.mce-active, .mce-btn.mce-active:hover {
+    background-color: rgba(255,255,255,0.05);
+    border-color: #ac0000;
+    color: #fff;
+}
+
+.mce-btn {
+    background-color: transparent;
+}
+
+.mce-btn:hover {
+    background-color: rgba(255,255,255,0.05);
+    border-color: #ac0000;
+    color: #fff;
+}
+
+.mce-caret {
+    border-top: 4px solid #ddd;
+}
+
+.mce-btn-group:not(:first-child) {
+    border-left: 1px solid #313131;
+    padding-left: 0;
+    margin-left: 5px;
+}
+
+.mce-menu {
+    background: #202020;
+    color: #dddddd;
+}
+
+.mce-menu-item .mce-ico, .mce-menu-item .mce-text {
+    color: #ddd !important;
+}
+
+.mce-menu-item:hover,
+.mce-menu-item.mce-selected,
+.mce-menu-item:focus {
+    color: #fff !important;
+    background-color: rgba(255,255,255,0.05);
+}
+
+.mce-menu-item.mce-disabled .mce-text, .mce-menu-item.mce-disabled .mce-ico {
+    color: #888 !important;
+}
+
+.mce-menu-item.mce-disabled:hover {
+    color: #888 !important;
+    background: rgba(255,255,255,0.05);
+    cursor: not-allowed;
+}
+
+div.mce-edit-area {
+    background: #202020;
+}
+
+body #tinymce .mce-content-body {
+    background: #202020 !important;
+    box-shadow: inset 1px 1px 16px 0 rgb(0 0 0 / 20%), inset -1px -1px 16px 0 rgb(0 0 0 / 20%);
+}
+
+#downloadsbrowse .tooltip {
+    margin-bottom: 0;
+}
+
+.tabsummary #downloadsbrowse div.row:last-child {
+    border-top: 1px solid rgb(0 0 0 / 50%) !important;
+    box-shadow: inset 0 1px 0 #292929;
+    margin-top: 10px;
+    padding: 20px 0 20px 0;
+    text-align: center !important;
+}
+
+.tabsummary #downloadsbrowse div.row:last-child h4 {
+    font-size: 0;
+}
+
+.tabsummary #downloadsbrowse div.row:last-child a {
+    width: auto;
+    margin: 0 5px;
+    padding: 7px 12px;
+    border-radius: 4px;
+    background: transparent !important;
+    border: 1px solid #333333;
+    color: #DDD !important;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+}
+
+.tabsummary #downloadsbrowse div.row:last-child a:hover {
+    background: rgba(255,255,255,0.1) !important;
+    color: #fff !important;
+    border: 1px solid #ac0000;
+    cursor: pointer;
+}
+
+div.normalbox form.filter {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+}
+
+div.normalbox form.filter input {
+    height: 25px;
+    width: 100%;
+    border: 1px solid #333333;
+    margin: 10px 10px 15px;
+    width: -webkit-fill-available;
+    place-items: baseline;
+    float: left;
+    order: 1;
+    font-size: inherit;
+}
+
+div.normalbox form.filter div.buttons {
+    display: inline-flex;
+    width: auto;
+    order: 3;
+    height: 25px;
+    margin-left: auto;
+}
+
+div.normalbox form.filter div.buttons a {
+    width: 100px;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+    border-radius: 4px;
+    background: transparent !important;
+    border: 1px solid #333333;
+    color: #DDD;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+}
+
+div.normalbox form.filter div.buttons a:hover {
+    background: rgba(255,255,255,0.1) !important;
+    color: #fff !important;
+    border: 1px solid #ac0000;
+    cursor: pointer;
+}
+
+div.normalbox form.filter div.buttons input {
+    width: 100px;
+    height: 25px;
+    margin: 0 10px 0 10px;
+    border-radius: 4px;
+    background: transparent !important;
+    border: 1px solid #333333;
+    color: #DDD;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    color: #DDD;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+}
+
+div.normalbox form.filter div.buttons input:hover {
+    background: rgba(255,255,255,0.1) !important;
+    color: #fff;
+    border: 1px solid #ac0000;
+}
+
+div.normalbox form.filter select {
+    width: 100px;
+    height: 25px;
+    font-size: inherit;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding: 4px;
+    background: transparent;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #ddd;
+    order: 2;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+}
+
+div.normalbox form.filter select:hover {
+    background: rgba(255,255,255,0.1) !important;
+    color: #fff;
+    border: 1px solid #ac0000;
+    cursor: pointer;
+}
+
+div.normalbox form.filter select option {
+    background: #161616;
+    color: #ddd;
+    font-weight: normal !important;
+    padding: 3px 5px !important;
+}
+
+#downloadsbrowse .row.rowcontent,
+#downloadsbrowse .row.rowcontent .content {
+    height: 90px;
+}
+
+#downloadsbrowse .row.rowcontent .content {
+    display: flex !important;
+    flex-direction: column;
+    float: left;
+    margin-left: 10px;
+    width: 460px;
+}
+
+#downloadsbrowse .rowcontent {
+    border-top: 1px solid rgb(0 0 0 / 50%) !important;
+    box-shadow: inset 0 1px 0 #292929;
+}
+#downloadsbrowse .rowcontent:nth-last-child(2) {
+    border-bottom: none;
+}
+
+#downloadsbrowse div.normalbox div.table h4,
+#downloadsbrowse div.normalbox div.table span.heading {
+    width: 70%;
+    text-overflow: ellipsis;
+}
+
+#downloadsbrowse span.subheading {
+    display: flex;
+    order: 3;
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+    bottom: -18px;
+    font-weight: bold;
+}
+
+#downloadsbrowse span.subheading a {
+    margin-left: 10px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/pin_icon.svg) no-repeat;
+    background-size: 10px 10px;
+    background-position: 4px 4px;
+    position: absolute;
+    right: 0;
+    transition: color 0.3s ease-out, background 0.3s ease-out;
+}
+
+#downloadsbrowse span.subheading a:hover {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/pin_icon_hover.svg) no-repeat;
+    background-size: 10px 10px;
+    background-position: 4px 4px;
+}
+
+#downloadsbrowse span.subheading a[title="Unpin"] {
+    margin-left: 10px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Icon.svg) no-repeat;
+    background-size: 12px 12px;
+    background-position: 4px 2px;
+    transition: color 0.3s ease-out, background 0.3s ease-out;
+}
+
+#downloadsbrowse span.subheading a[title="Unpin"]:hover {
+    margin-left: 10px;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat;
+    background-size: 12px 12px;
+    background-position: 4px 2px;
+}
+
+#downloadsbrowse div.content span.date {
+    text-transform: uppercase;
+    align-self: flex-end;
+    margin-left: 0 !important;
+    order: 1;
+    position: relative !important;
+    top: -17px;
+    right: 0;
+    height: 0;
+}
+
+#downloadsbrowse div.content p {
+    border-top: none !important;
+    margin-top: 0px;
+    padding-top: 5px;
+    order: 2;
+}
+
+div.normalbox div.table a.image {
+    background-color: transparent;
+    padding: 0;
+    margin: 0 5px 10px 5px;
+}
+
+#downloadsbrowse div.table a.image {
+    outline: 1px solid rgba(255,255,255,0.1);
+}
+
+#downloadsbrowse div.table .row .content h4 a,
+#downloadsbrowse div.table .row .content p,
+#downloadsbrowse div.table .row .content span.date {
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+}
+
+#downloadsbrowse .row {
+    padding: 20px 10px 20px 14px;
+}
+
+#downloadsbrowse .row:hover {
+    background: #191919 !important;
+}
+
+.tabdownloads #downloadsbrowse span:nth-child(2) {
+    position: revert !important;
+    width: auto;
+    width: fit-contents;
+}
+
+.tabdownloads #downloadsbrowse span:nth-child(1).date {
+    position: revert !important;
+    height: auto;
+    margin-right: 10px;
+}
+
+.tabdownloads #downloadsbrowse span:nth-child(2) a {
+    position: revert !important;
+    background: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.tabsummary #downloadsbrowse .row:last-child:hover {
+    background: #202020 !important;
+}
+
+#downloadsbrowse div.table .row:hover .content h4 a,
+#downloadsbrowse div.table .row:hover .content p {
+    color: #fff;
+}
+
+#downloadsbrowse div.table .row:hover .content h4 a {
+    text-decoration: underline;
+}
+
+.tabdownloads #downloadsbrowse .row:hover.rowsort {
+    background: #202020 !important;
+}
+
+div.normalbox div.table div.rowsort {
+    border-bottom: none;
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 14px !important;
+}
+
+div.normalbox div.table div.rowsort .content {
+    margin-left: 0;
+}
+
+div.normalbox div.table div.rowsort a{
+    font-weight: 400;
+    transition: background 0.3s ease-out, color 0.3s ease-out;
+}
+
+a.descicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caret_down_icon.svg) no-repeat;
+    background-position: 6px 0;
+}
+
+a:hover.descicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caret_down_hover.svg) no-repeat;
+    background-position: 6px 0;
+}
+
+a.ascicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caret_up_icon.svg) no-repeat;
+    background-position: 6px 0;
+}
+
+a:hover.ascicon {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caret_up_hover.svg) no-repeat;
+    background-position: 6px 0;
+}
+
+div.normalbox div.table div.row {
+    padding: 1em 10px 1em 14px;
+}
+
+.emailpromo {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/mail-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-position: center;
+}
+
+.emailpromo:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/mail-icon-hover.png);
+}
+
+.csstooltip:hover:before {
+    display: none;
+}
+
+span.options a{
+    border:none;
+    text-indent: 0;
+    width: auto;
+    padding-left: 18px;
+    margin-left: 15px;
+}
+
+span.options a:hover{
+    padding-left: 18px;
+    margin-left: 15px;
+    padding-right: 0;
+}
+
+div.tooltip {
+    background: transparent;
+    padding: 0;
+    padding-bottom: 0;
+    border-bottom: 0px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(170,0,0,1) 100%);
+    border-image-slice: 1;
+}
+
+div.normalbox div.bodysimple div.tooltip {
+    margin-bottom: 1em;
+}
+
+div.normalbox div.inner {
+    background-color: #202020;
+    padding: 0rem;
+    border-left: 1px solid #313131;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+div.normalbox div.table div.content p {
+    border-top: 1px solid #292929;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+div.normalbox div.table div.row:nth-of-type(2n-1) div.content p {
+    border-top: 1px solid #292929;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+div.normalbox div.mediaviewer div.media {
+    width: 100%;
+    padding-top: 2px;
+    border-top: 1px solid #000;
+}
+
+#tagsform .tagaction {
+    margin-left: 5px;
+}
+
+textarea {
+    color: #888 !important;
+    background: transparent;
+}
+
+div.normalbox div.tableform textarea {
+    resize: vertical;
+    border-radius: 4px;
+    background: #1E1E1E !important;
+    color: #888;
+    box-shadow: inset 1px 1px 16px 0 rgb(0 0 0 / 20%), inset -1px -1px 16px 0 rgb(0 0 0 / 20%);
+    border: 1px solid #333333;
+    padding: 5px;
+}
+
+.tablerating textarea {
+    resize: vertical;
+}
+
+#footer {
+    background-color: #000;
+    border-top-color: #000;
+}
+
+
+div.normalbox div.table h4 a, div.normalbox div.table span.heading a {
+	color: #fff;
+}
+
+a {
+    color: #DDDDDD;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, background-position 0.01s, border 0.3s ease-out, outline 0.3s ease-out;
+}
+
+input.button,
+div.button,
+.buttons input,
+input.select,
+select {
+    cursor: pointer !important;
+}
+
+input.text:hover {
+    border: 1px solid #ac0000 !important;
+}
+
+a:hover,
+a:active,
+a:focus,
+a:focus-visible {
+    color: #ff0000 !important;
+    outline: 0 solid transparent !important;
+}
+
+div.normalbox div.table div.row:nth-of-type(2n-1) {
+    background-color: #202020;
+}
+
+body {
+     color: #DDDDDD;
+}
+
+#body {
+    background: #111111;
+    cursor: auto;
+}
+
+
+.previewform {
+	background: #000;
+}
+
+
+div.normalbox div.tablerelated a.heading {
+	border-bottom-color: #888;
+	color: #fff;
+}
+
+div#modsbrowserecommended {
+    display: none;
+}
+
+input,
+textarea {
+    border-radius: 4px;
+    background: #1E1E1E !important;
+    color: #888;
+    box-shadow: inset 1px 1px 16px 0 rgb(0 0 0 / 20%), inset -1px -1px 16px 0 rgb(0 0 0 / 20%);
+    border: 1px solid #333333;
+    padding: 5px;
+}
+
+textarea:hover {
+    outline: 1px solid #ac0000 !important;
+}
+
+:focus,
+:focus-visible,
+input:focus,
+input:focus-visible,
+input:active,
+textarea:focus,
+textarea:focus-visible,
+textarea:active {
+    overflow: visible !important;
+    outline: 1px solid #ac0000 !important;
+    box-shadow: inset 1px 1px 16px 0 rgb(255 0 0 / 8%), inset -1px -1px 16px 0 rgb(255 0 0 / 8%) !important;
+    color: #ddd !important;
+}
+
+div.buttons input {
+    box-shadow: none !important;
+}
+
+#embedbuttons textarea.text{
+    overflow-y: hidden !important;
+    height: 50px !important;
+    resize: none;
+}
+
+#embedbuttons textarea.text:active,
+#embedbuttons textarea.text:focus,
+#embedbuttons textarea.text:focus-visible {
+    overflow-y: auto !important;
+    -webkit-outline-width: 0;
+    outline-width: 0;
+}
+
+div.span-300-alt div.normalbox div.tablemenu span.summary {
+    width: auto !important;
+}
+
+.table.tablemenu {
+    padding-bottom: 5px;
+}
+
+#embedbuttons span.summary {
+    float: right;
+}
+
+div.normalbox div.tableform input.text {
+    color: #888;
+    height: 24px;
+    background: #1E1E1E !important;
+    box-shadow: inset 1px 1px 16px 0 rgb(0 0 0 / 20%), inset -1px -1px 16px 0 rgb(0 0 0 / 20%);
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding-left: 6px;
+}
+
+div.normalbox div.tableform input.text:hover {
+    outline: 1px solid #ac0000 !important;
+}
+
+div.normalbox div.tablemenu span.summary input.text {
+    color: #888;
+    height: 24px;
+    background: transparent;
+    box-shadow: inset 1px 1px 16px 0 rgb(0 0 0 / 20%), inset -1px -1px 16px 0 rgb(0 0 0 / 20%);
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding-left: 6px;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+}
+
+div.normalbox div.tableform input.text:focus {
+    color: #ddd;
+    border-radius: 4px;
+}
+
+div.normalbox div.tableform div.buttons {
+    text-align: center;
+    padding-top: 0;
+}
+
+div.normalbox div.tableform div.buttons input {
+    padding: 5px 40px;
+    background: transparent !important;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #DDD;
+    font-weight: normal;
+    letter-spacing: 0.05rem;
+    font-size: 12px;
+    margin: 0.5rem;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+}
+
+div.normalbox div.tableform div.buttons input:hover {
+    background: rgba(255,255,255,0.1) !important;
+    color: #fff;
+    border: 1px solid #ac0000;
+}
+
+.amcharts-main-div text {
+    fill: #bbb !important;
+}
+
+.amcharts-chart-div g:nth-child(3) g path {
+    stroke: #bbb !important;
+}
+
+.amcharts-chart-div g:nth-child(12) g:nth-child(1) g path {
+    stroke: #313131 !important;
+    stroke-opacity: 1;
+}
+
+.amcharts-chart-div rect {
+    fill-opacity: 0;
+    stroke: #313131;
+}
+
+.amcharts-chart-div a {
+    color: #888 !important;
+}
+
+.amChartsPeriodSelector .amChartsButton {
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #DDD;
+    font-weight: normal;
+    letter-spacing: 0.05rem;
+    font-size: 12px;
+    margin-left: 0.5rem;
+    box-shadow: none;
+}
+
+.amChartsButtonSelected {
+    padding: 5px 10px !important;
+    background: rgba(255,0,0,0.05) !important;
+    border: 1px solid #7f0000 !important;
+    border-radius: 4px !important;
+    color: #ff0000 !important;
+    font-weight: normal !important;
+    letter-spacing: 0.05rem !important;
+    font-size: 12px !important;
+    margin-left: 0.5rem !important;
+    box-shadow: none !important;
+}
+
+.amChartsButtonSelected:hover {
+    background: rgba(255,0,0,0.1) !important;
+}
+
+.amChartsPeriodSelector .amChartsButton:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.amChartsPeriodSelector input:hover {
+    outline: 1px solid #ac0000;
+}
+
+.bodysimple .row.clear {
+    background: transparent !important;
+}
+
+div.successtooltip {
+    background: linear-gradient(90deg, rgb(0 70 0) 0%, rgb(0 50 0) 100%);
+    color: #00cc00;
+    padding: 1em 0 0 !important;
+    text-align: center;
+    height: 2rem;
+    letter-spacing: 0.04rem;
+    border: none;
+}
+
+textarea#profilecss {
+    margin-top: 0rem;
+}
+
+.dropzoneuploader {
+    background: rgb(0 102 204 / 10%);
+    border: 2px dashed rgb(0 102 204 /50%);
+    color: #959595;
+    border-radius: 8px;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.dropzoneuploader:hover {
+    background: #003500;
+    border: 2px dashed #007000;
+    color: #FFF;
+}
+
+.dropzonepreview {
+    margin: 1.5rem 0 1rem 0;
+}
+
+.dropzone .dz-preview {
+    margin: 0 10px 10px 0;
+    padding: 0;
+    border: 1px solid #333333;
+}
+
+.dropzone .dz-preview:hover {
+    border: 1px solid #ac0000;
+}
+
+.dropzone .dz-preview .dz-image img {
+    border-radius: 4px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.dropzone .dz-preview:hover .dz-remove {
+    width: 100%;
+}
+
+#profilesubmit {
+    margin-bottom: 1rem;
+    height: 30px;
+    width: 145px;
+    padding: 5px 15px;
+}
+
+textarea#commentsummary {
+    resize: vertical !important;
+    overflow-y: hidden;
+}
+
+.mentions-input .highlighter {
+    height: auto !important;
+    white-space: nowrap !important;
+}
+
+#commentsubmit {
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 5px 15px;
+    width: 145px;
+    text-align: right;
+    text-decoration: none !important;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    background: transparent url(https://media.moddb.com/images/mods/1/51/50389/profile/comment_icon.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 15px 7px !important;
+    background-size: 16px !important;
+}
+
+#commentsubmit:hover {
+    background: rgba(255,255,255,0.1) url(https://media.moddb.com/images/mods/1/51/50389/profile/comment_icon.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 15px 7px !important;
+    background-size: 16px !important;
+    border: 1px solid #ff0000;
+    color: #ddd !important;
+}
+
+.verifiedicon {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/cncneticon.png) !important;
+    background-position: left;
+    background-size: contain;
+    padding-left: 15px !important;
+}
+
+span.summary.summarypromo a {
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+    background-position: bottom;
+    background-size: contain;
+}
+
+span.summary.summarypromo a:hover {
+    background-position: bottom;
+    background-size: contain;
+}
+
+a.facebookpromo.csstooltip {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_icon.svg);
+}
+
+a.facebookpromo.csstooltip:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_hover.svg);
+}
+
+a.twitterpromo.csstooltip {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_icon.svg);
+}
+
+a.twitterpromo.csstooltip:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/t_hover.svg);
+}
+
+a.emailpromo.csstooltip {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/envelope_icon.svg);
+}
+
+a.emailpromo.csstooltip:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/envelope_hover.svg);
+}
+
+a.redditpromo.csstooltip {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/reddit_icon.svg);
+}
+
+a.redditpromo.csstooltip:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/reddit_hover.svg);
+}
+
+.twittericon, .steamicon, .facebookicon, .googleicon {
+    background: transparent no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 18px;
+    width: 18px;
+    margin: 5px 5px 0 0;
+    padding-left: 5px;
+}
+
+.twittericon {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_grey.svg);
+}
+
+.twittericon:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_icon.svg);
+}
+
+.steamicon {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_grey.svg);
+}
+
+.steamicon:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_icon.svg);
+}
+
+.facebookicon {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_grey.svg);
+}
+
+.facebookicon:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_icon.svg);
+}
+
+.googleicon {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_grey.svg);
+}
+
+.googleicon:hover {
+    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_icon.svg);
+}
