@@ -30,91 +30,91 @@ div#embedbuttons {
     font-size: 12px;
 }
 
-#searchbox form {
-    float: right;
-    width: 240px;
-}
+    #searchbox form {
+        float: right;
+        width: 240px;
+    }
 
-#searchbox form.search input {
-    box-shadow: none;
-    width: 204px;
-    background: none !important;
-    padding-left: 5px;
-}
+        #searchbox form.search input {
+            box-shadow: none;
+            width: 204px;
+            background: none !important;
+            padding-left: 5px;
+        }
 
-#searchbox form.search input:hover,
-#searchbox form.search *:focus,
-#searchbox form.search *:focus-visible,
-#searchbox form.login input:hover,
-#searchbox form.login *:focus,
-#searchbox form.login *:focus-visible {
-    color: #000 !important;
-    box-shadow: none !important;
-    outline: none !important;
-    border: none !important;
-}
+            #searchbox form.search input:hover,
+            #searchbox form.search *:focus,
+            #searchbox form.search *:focus-visible,
+            #searchbox form.login input:hover,
+            #searchbox form.login *:focus,
+            #searchbox form.login *:focus-visible {
+                color: #000 !important;
+                box-shadow: none !important;
+                outline: none !important;
+                border: none !important;
+            }
 
-#searchbox form.login input.button:hover {
-    background-color: #ff0000 !important;
-    color: #fff !important;
-}
+        #searchbox form.login input.button:hover {
+            background-color: #ff0000 !important;
+            color: #fff !important;
+        }
 
-#searchbox form.search input.button {
-    float: right;
-    padding: 0 5px;
-    border: none;
-    width: auto;
-}
+        #searchbox form.search input.button {
+            float: right;
+            padding: 0 5px;
+            border: none;
+            width: auto;
+        }
 
-#searchbox form.login {
-    float: left;
-    width: auto;
-    background: transparent;
-    margin-right: 0;
-}
+        #searchbox form.login {
+            float: left;
+            width: auto;
+            background: transparent;
+            margin-right: 0;
+        }
 
-#searchbox form.login input.text,
-#searchbox form.login input.password {
-    width: 100px !important;
-    background: #fff !important;
-    box-shadow: none;
-    border: none !important;
-    border-radius: 0 !important;
-    padding-left: 3px;
-    margin-left: 5px;
-}
+            #searchbox form.login input.text,
+            #searchbox form.login input.password {
+                width: 100px !important;
+                background: #fff !important;
+                box-shadow: none;
+                border: none !important;
+                border-radius: 0 !important;
+                padding-left: 3px;
+                margin-left: 5px;
+            }
 
-#searchbox form.login input.button {
-    background-color: #fff !important;
-    border: none !important;
-    border-radius: 0 !important;
-    color: #000 !important;
-    margin-left: 3px;
-    box-shadow: none;
-}
+            #searchbox form.login input.button {
+                background-color: #fff !important;
+                border: none !important;
+                border-radius: 0 !important;
+                color: #000 !important;
+                margin-left: 3px;
+                box-shadow: none;
+            }
 
-#searchbox span.login {
-    color: #fff;
-    float: left;
-    font-size: 1.1em;
-    line-height: 21px;
-    margin-left: 16px;
-    height: 21px;
-    width: auto;
-    display: flex;
-}
+    #searchbox span.login {
+        color: #fff;
+        float: left;
+        font-size: 1.1em;
+        line-height: 21px;
+        margin-left: 16px;
+        height: 21px;
+        width: auto;
+        display: flex;
+    }
 
-#searchbox span.guest a,
-#searchbox span.login a{
-    display: inline-flex;
-    float: none !important;
-    margin: 0 5px;
-    text-decoration: underline;
-}
+        #searchbox span.guest a,
+        #searchbox span.login a {
+            display: inline-flex;
+            float: none !important;
+            margin: 0 5px;
+            text-decoration: underline;
+        }
 
-#searchbox span.login a:first-child {
-    margin-left: 15px !important;
-}
+            #searchbox span.login a:first-child {
+                margin-left: 15px !important;
+            }
 
 .twittericonsml,
 .steamiconsml,
@@ -130,40 +130,40 @@ div#embedbuttons {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_grey.svg) no-repeat;
 }
 
-.steamiconsml:hover {
-    background-position: center;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_icon.svg) no-repeat;
-}
+    .steamiconsml:hover {
+        background-position: center;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_icon.svg) no-repeat;
+    }
 
 .twittericonsml {
     background-position: center;
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_grey.svg) no-repeat;
 }
 
-.twittericonsml:hover {
-    background-position: center;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_icon.svg) no-repeat;
-}
+    .twittericonsml:hover {
+        background-position: center;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_icon.svg) no-repeat;
+    }
 
 .facebookiconsml {
     background-position: center;
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_grey.svg) no-repeat;
 }
 
-.facebookiconsml:hover {
-    background-position: center;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_icon.svg) no-repeat;
-}
+    .facebookiconsml:hover {
+        background-position: center;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_icon.svg) no-repeat;
+    }
 
 .googleiconsml {
     background-position: center;
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_grey.svg) no-repeat;
 }
 
-.googleiconsml:hover {
-    background-position: center;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_icon.svg) no-repeat;
-}
+    .googleiconsml:hover {
+        background-position: center;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_icon.svg) no-repeat;
+    }
 
 div.headerbox {
     background-color: transparent;
@@ -176,34 +176,34 @@ div.headerbox {
     padding-top: 7rem;
 }
 
-div.headerbox div.headercorner {
-    border: none;
-    border-bottom: none;
-    padding: 210px 0 0 0;
-}
+    div.headerbox div.headercorner {
+        border: none;
+        border-bottom: none;
+        padding: 210px 0 0 0;
+    }
 
-div.headerbox div.title {
-    background: none;
-    padding: 0;
-}
+    div.headerbox div.title {
+        background: none;
+        padding: 0;
+    }
 
-div.headerbox h2, div.headerbox h3 {
-    text-align: center;
-}
+    div.headerbox h2, div.headerbox h3 {
+        text-align: center;
+    }
 
-div.headerbox h2 a, div.headerbox h3 a {
-    color: #bbb;
-}
+        div.headerbox h2 a, div.headerbox h3 a {
+            color: #bbb;
+        }
 
-div.headerbox h2{
-    display: none;
-}
+    div.headerbox h2 {
+        display: none;
+    }
 
-div.headerbox h3 {
-    display: none;
-    padding: 10px 0;
-    color: #bbb;
-}
+    div.headerbox h3 {
+        display: none;
+        padding: 10px 0;
+        color: #bbb;
+    }
 
 .headercorner nav {
     border-top: 1px solid #303030;
@@ -227,48 +227,48 @@ div.headerbox ul.menu {
     border-radius: 8px 8px 0 0;
 }
 
-div.headerbox ul.menu li {
-    line-height: 1rem;
-    border-left: none;
-}
+    div.headerbox ul.menu li {
+        line-height: 1rem;
+        border-left: none;
+    }
 
-div.headerbox ul.menu li a {
-    color: #c7ba7f;
-    font-size: 1.3em;
-    padding: 8px 15px;
-    margin-right: -5px;
-    display: inline-block;
-    border-left: 1px solid #313131;
-}
+        div.headerbox ul.menu li a {
+            color: #c7ba7f;
+            font-size: 1.3em;
+            padding: 8px 15px;
+            margin-right: -5px;
+            display: inline-block;
+            border-left: 1px solid #313131;
+        }
 
-div.headerbox ul.menu li:last-of-type a {
-    border-right: 1px solid #313131;
-}
+        div.headerbox ul.menu li:last-of-type a {
+            border-right: 1px solid #313131;
+        }
 
-div.headerbox ul.menu li a:hover {
-    color: #ff0000;
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,0.15) 100%);
-    text-decoration: none;
-}
+        div.headerbox ul.menu li a:hover {
+            color: #ff0000;
+            background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,255,255,0.15) 100%);
+            text-decoration: none;
+        }
 
-div.headerbox ul.menu li.on a {
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(170,0,0,0.85) 100%);
-    color: #dfd08d;
-}
+        div.headerbox ul.menu li.on a {
+            background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(170,0,0,0.85) 100%);
+            color: #dfd08d;
+        }
 
-div.headerbox ul.menu li.on a:hover {
-    color: #dfd08d !important;
-}
+            div.headerbox ul.menu li.on a:hover {
+                color: #dfd08d !important;
+            }
 
-div.headerbox ul.menu li.off a {
-    color: #555;
-    text-decoration: none;
-    font-size: 1.3em;
-}
+        div.headerbox ul.menu li.off a {
+            color: #555;
+            text-decoration: none;
+            font-size: 1.3em;
+        }
 
-div.headerbox ul.menu li.off a:hover {
-    color: #555;
-}
+            div.headerbox ul.menu li.off a:hover {
+                color: #555;
+            }
 
 div.imagebox {
     background: #000;
@@ -277,43 +277,52 @@ div.imagebox {
     box-shadow: 3px 3px 6px 0px rgb(0 0 0 / 25%);
 }
 
-div.imagebox ul {
-    border-top: 1px solid #292929;
+    div.imagebox ul {
+        border-top: 1px solid #292929;
+    }
+
+    div.imagebox li.previous {
+        box-shadow: -1px 0px 0px 0px #292929;
+    }
+
+    div.imagebox li.on a {
+        background-color: transparent;
+    }
+
+    div.imagebox li.previous a,
+    div.imagebox li.next a {
+        transition: none;
+    }
+
+    div.imagebox a:hover img {
+        outline: 1px solid #ac0000;
+        transition: none;
+    }
+
+    div.imagebox a.add {
+        color: #bbb;
+        outline: 1px solid #292929;
+    }
+
+        div.imagebox a.add:hover,
+        div.imagebox a.add:focus,
+        div.imagebox a.add:focus-visible {
+            outline: 1px solid #ac0000 !important;
+        }
+
+    div.imagebox li.on img,
+    div.imagebox li.deleted img {
+        filter: alpha(opacity=100);
+        opacity: 1.0;
+    }
+
+#cboxLoadedContent {
+    background: transparent;
 }
 
-div.imagebox li.previous {
-    box-shadow: -1px 0px 0px 0px #292929;
-}
-
-div.imagebox li.on a {
-    background-color: transparent;
-}
-
-div.imagebox li.previous a,
-div.imagebox li.next a {
-    transition: none;
-}
-
-div.imagebox a:hover img {
-    outline: 1px solid #ac0000;
-    transition: none;
-}
-
-div.imagebox a.add {
-    color: #bbb;
-    outline: 1px solid #292929;
-}
-
-div.imagebox a.add:hover,
-div.imagebox a.add:focus,
-div.imagebox a.add:focus-visible {
-    outline: 1px solid #ac0000 !important;
-}
-
-div.imagebox li.on img,
-div.imagebox li.deleted img {
-    filter: alpha(opacity=100);
-    opacity: 1.0;
+.cboxPhoto {
+    max-width: 95vw;
+    max-height: 95vh;
 }
 
 div.normalbox div.mediaviewer div.media {
@@ -368,19 +377,19 @@ div.normalbox div.title {
     border-image-slice: 1;
 }
 
-div.normalbox div.title span.heading {
-    color: #c7ba7f;
-    font-variant: all-small-caps;
-    letter-spacing: 0.08rem;
-}
+    div.normalbox div.title span.heading {
+        color: #c7ba7f;
+        font-variant: all-small-caps;
+        letter-spacing: 0.08rem;
+    }
 
-div.normalbox div.title span.options a{
-    margin-top: 3px;
-    font-weight: bold;
-    text-transform: capitalize;
-    letter-spacing: 0.03em;
-    transition: color 0.3s ease-out, background 0.3s ease-out;
-}
+    div.normalbox div.title span.options a {
+        margin-top: 3px;
+        font-weight: bold;
+        text-transform: capitalize;
+        letter-spacing: 0.03em;
+        transition: color 0.3s ease-out, background 0.3s ease-out;
+    }
 
 span.options a.addicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Add_Icon.svg) no-repeat left center;
@@ -388,11 +397,11 @@ span.options a.addicon {
     padding-left: 14px;
 }
 
-span.options a.addicon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Add_Hover.svg) no-repeat left center;
-    background-size: 10px;
-    padding-left: 14px;
-}
+    span.options a.addicon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Add_Hover.svg) no-repeat left center;
+        background-size: 10px;
+        padding-left: 14px;
+    }
 
 span.options a.editicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Icon.svg) no-repeat left center;
@@ -400,11 +409,11 @@ span.options a.editicon {
     padding-left: 14px;
 }
 
-span.options a.editicon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Hover.svg) no-repeat left center;
-    background-size: 10px;
-    padding-left: 14px;
-}
+    span.options a.editicon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Hover.svg) no-repeat left center;
+        background-size: 10px;
+        padding-left: 14px;
+    }
 
 span.options a.deleteicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Icon.svg) no-repeat left center;
@@ -412,11 +421,11 @@ span.options a.deleteicon {
     padding-left: 14px;
 }
 
-span.options a.deleteicon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat left center;
-    background-size: 10px;
-    padding-left: 14px;
-}
+    span.options a.deleteicon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat left center;
+        background-size: 10px;
+        padding-left: 14px;
+    }
 
 span.options a.rssicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Rss_Icon.svg) no-repeat left center;
@@ -424,11 +433,11 @@ span.options a.rssicon {
     padding-left: 14px;
 }
 
-span.options a.rssicon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Rss_Hover.svg) no-repeat left center;
-    background-size: 10px;
-    padding-left: 14px;
-}
+    span.options a.rssicon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Rss_Hover.svg) no-repeat left center;
+        background-size: 10px;
+        padding-left: 14px;
+    }
 
 #commentform .tooltip {
     height: 0.01rem !important;
@@ -475,24 +484,24 @@ div.normalbox div.tablecomments div.reply8 {
     box-shadow: none;
 }
 
-div.normalbox div.tablecomments div.reply1:before,
-div.normalbox div.tablecomments div.reply2:before,
-div.normalbox div.tablecomments div.reply3:before,
-div.normalbox div.tablecomments div.reply4:before,
-div.normalbox div.tablecomments div.reply5:before,
-div.normalbox div.tablecomments div.reply6:before,
-div.normalbox div.tablecomments div.reply7:before,
-div.normalbox div.tablecomments div.reply8:before {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/reply_comment_icon.svg);
-    content: '';
-    width: 16px;
-    height: 16px;
-    background-position: left center;
-    float: left;
-    margin-right: 5px;
-    position: relative;
-    top: 32px;
-}
+    div.normalbox div.tablecomments div.reply1:before,
+    div.normalbox div.tablecomments div.reply2:before,
+    div.normalbox div.tablecomments div.reply3:before,
+    div.normalbox div.tablecomments div.reply4:before,
+    div.normalbox div.tablecomments div.reply5:before,
+    div.normalbox div.tablecomments div.reply6:before,
+    div.normalbox div.tablecomments div.reply7:before,
+    div.normalbox div.tablecomments div.reply8:before {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/reply_comment_icon.svg);
+        content: '';
+        width: 16px;
+        height: 16px;
+        background-position: left center;
+        float: left;
+        margin-right: 5px;
+        position: relative;
+        top: 32px;
+    }
 
 div.normalbox div.tablecomments a.avatar[title=CnC-RaVaGe] {
     background: transparent;
@@ -533,54 +542,54 @@ div.normalbox div.tablecomments span.developer {
     float: left;
 }
 
-#tagsform .row a {
-    color: #888;
-}
+    #tagsform .row a {
+        color: #888;
+    }
 
-#tagsform .row:last-child {
-    width: auto;
-    float: none;
-}
+    #tagsform .row:last-child {
+        width: auto;
+        float: none;
+    }
 
 #tagsform .tagaction {
     display: none;
 }
 
-#tagsform .tagaction.editicon {
-    margin-left: 5px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/info_icon2.svg) no-repeat;
-    background-position: center;
-}
+    #tagsform .tagaction.editicon {
+        margin-left: 5px;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/info_icon2.svg) no-repeat;
+        background-position: center;
+    }
 
-#tagsform .tagaction.editicon:hover {
-    margin-left: 5px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/info_hover.svg) no-repeat;
-    background-position: center;
-}
+        #tagsform .tagaction.editicon:hover {
+            margin-left: 5px;
+            background: url(https://media.moddb.com/images/mods/1/51/50389/profile/info_hover.svg) no-repeat;
+            background-position: center;
+        }
 
-#tagsform .tagaction.karmagoodicon {
-    margin-left: 5px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretup_icon2.svg) no-repeat;
-    background-position: center;
-}
+    #tagsform .tagaction.karmagoodicon {
+        margin-left: 5px;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretup_icon2.svg) no-repeat;
+        background-position: center;
+    }
 
-#tagsform .tagaction.karmagoodicon :hover {
-    margin-left: 5px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretup_hover.svg) no-repeat;
-    background-position: center;
-}
+        #tagsform .tagaction.karmagoodicon :hover {
+            margin-left: 5px;
+            background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretup_hover.svg) no-repeat;
+            background-position: center;
+        }
 
-#tagsform .tagaction.karmabadicon {
-    margin-left: 5px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretdown_icon2.svg) no-repeat;
-    background-position: center;
-}
+    #tagsform .tagaction.karmabadicon {
+        margin-left: 5px;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretdown_icon2.svg) no-repeat;
+        background-position: center;
+    }
 
-#tagsform .tagaction.karmabaddicon :hover {
-    margin-left: 5px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretdown_hover.svg) no-repeat;
-    background-position: center;
-}
+    #tagsform .tagaction.karmabaddicon :hover {
+        margin-left: 5px;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caretdown_hover.svg) no-repeat;
+        background-position: center;
+    }
 
 div.normalbox div.tablecomments span.actions a, div.normalbox div.tablecomments span.actions span {
     color: #999;
@@ -624,11 +633,11 @@ div.normalbox div.tablecomments .row:hover {
     background-color: #191919 !important;
 }
 
-div.normalbox div.tablecomments .row:hover span.actions a.editicon,
-div.normalbox div.tablecomments .row:hover span.actions a.entericon,
-div.normalbox div.tablecomments .row:hover span.actions a.deleteicon {
-    display: block;
-}
+    div.normalbox div.tablecomments .row:hover span.actions a.editicon,
+    div.normalbox div.tablecomments .row:hover span.actions a.entericon,
+    div.normalbox div.tablecomments .row:hover span.actions a.deleteicon {
+        display: block;
+    }
 
 div.normalbox div.tablecomments span.actions a.editicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Icon.svg) no-repeat;
@@ -638,11 +647,11 @@ div.normalbox div.tablecomments span.actions a.editicon {
     display: none;
 }
 
-div.normalbox div.tablecomments span.actions a.editicon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Hover.svg) no-repeat;
-    background-size: 12px;
-    background-position: 0px 1px;
-}
+    div.normalbox div.tablecomments span.actions a.editicon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Edit_Hover.svg) no-repeat;
+        background-size: 12px;
+        background-position: 0px 1px;
+    }
 
 div.normalbox div.tablecomments span.actions a.entericon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/reply_icon.svg) no-repeat;
@@ -653,11 +662,11 @@ div.normalbox div.tablecomments span.actions a.entericon {
     display: none;
 }
 
-div.normalbox div.tablecomments span.actions a.entericon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/reply_icon_hover.svg) no-repeat;
-    background-size: 13px;
-    background-position: 1px 1px;
-}
+    div.normalbox div.tablecomments span.actions a.entericon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/reply_icon_hover.svg) no-repeat;
+        background-size: 13px;
+        background-position: 1px 1px;
+    }
 
 div.normalbox div.tablecomments span.actions a.deleteicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Icon.svg) no-repeat;
@@ -668,11 +677,11 @@ div.normalbox div.tablecomments span.actions a.deleteicon {
     display: none;
 }
 
-div.normalbox div.tablecomments span.actions a.deleteicon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat;
-    background-size: 11px;
-    background-position: 0px 0px;
-}
+    div.normalbox div.tablecomments span.actions a.deleteicon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat;
+        background-size: 11px;
+        background-position: 0px 0px;
+    }
 
 div.normalbox div.tablecomments span.actions a.karmagoodicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/voteup_icon.1.svg) no-repeat;
@@ -684,11 +693,11 @@ div.normalbox div.tablecomments span.actions a.karmagoodicon {
     display: none;
 }
 
-div.normalbox div.tablecomments span.actions a.karmagoodicon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/voteup_hover.1.svg) no-repeat;
-    background-size: 12px;
-    background-position: 5px 0px;
-}
+    div.normalbox div.tablecomments span.actions a.karmagoodicon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/voteup_hover.1.svg) no-repeat;
+        background-size: 12px;
+        background-position: 5px 0px;
+    }
 
 div.normalbox div.tablecomments span.actions a.karmabadicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/votedown_icon.1.svg) no-repeat;
@@ -700,11 +709,11 @@ div.normalbox div.tablecomments span.actions a.karmabadicon {
     display: none;
 }
 
-div.normalbox div.tablecomments span.actions a.karmabadicon:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/votedown_hover.1.svg) no-repeat;
-    background-size: 12px;
-    background-position: 5px 4px;
-}
+    div.normalbox div.tablecomments span.actions a.karmabadicon:hover {
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/votedown_hover.1.svg) no-repeat;
+        background-size: 12px;
+        background-position: 5px 4px;
+    }
 
 div.normalbox div.tableform input.file {
     width: 305px;
@@ -719,10 +728,10 @@ div.normalbox div.tableform input.file {
     color: #ddd;
 }
 
-div.normalbox div.tableform input.file:hover {
-    outline: 1px solid #ac0000;
-    cursor: pointer;
-}
+    div.normalbox div.tableform input.file:hover {
+        outline: 1px solid #ac0000;
+        cursor: pointer;
+    }
 
 div.normalbox div.tableform select.select,
 .amcharts-data-set-select {
@@ -738,19 +747,19 @@ div.normalbox div.tableform select.select,
     color: #ddd;
 }
 
-div.normalbox div.tableform select.select:hover,
-.amcharts-data-set-select {
-    background: rgba(255,255,255,0.1) !important;
-    border: 1px solid #ff0000;
-}
+    div.normalbox div.tableform select.select:hover,
+    .amcharts-data-set-select {
+        background: rgba(255,255,255,0.1) !important;
+        border: 1px solid #ff0000;
+    }
 
-div.normalbox div.tableform select.select option,
-.amcharts-data-set-select option {
-    background: #161616;
-    color: #ddd;
-    font-weight: normal !important;
-    padding: 3px 5px !important;
-}
+        div.normalbox div.tableform select.select option,
+        .amcharts-data-set-select option {
+            background: #161616;
+            color: #ddd;
+            font-weight: normal !important;
+            padding: 3px 5px !important;
+        }
 
 #modsinfo span.options {
     display: none;
@@ -802,14 +811,14 @@ div.normalbox div.tableform select.select option,
     background-size: 16px !important;
 }
 
-#downloadmirrorstoggle:hover {
-    background: rgba(255,255,255,0.1) url(https://media.moddb.com/images/mods/1/51/50389/profile/download_icon.svg) !important;
-    background-repeat: no-repeat !important;
-    background-position: 15px 5px !important;
-    background-size: 16px !important;
-    border: 1px solid #ff0000;
-    color: #ddd !important;
-}
+    #downloadmirrorstoggle:hover {
+        background: rgba(255,255,255,0.1) url(https://media.moddb.com/images/mods/1/51/50389/profile/download_icon.svg) !important;
+        background-repeat: no-repeat !important;
+        background-position: 15px 5px !important;
+        background-size: 16px !important;
+        border: 1px solid #ff0000;
+        color: #ddd !important;
+    }
 
 .table.tablemenu a {
     text-decoration: underline !important;
@@ -851,11 +860,11 @@ div.normalbox div.tableform div.rowtinymce .mce-toolbar-grp {
     background-color: transparent;
 }
 
-.mce-btn:hover {
-    background-color: rgba(255,255,255,0.05);
-    border-color: #ac0000;
-    color: #fff;
-}
+    .mce-btn:hover {
+        background-color: rgba(255,255,255,0.05);
+        border-color: #ac0000;
+        color: #fff;
+    }
 
 .mce-caret {
     border-top: 4px solid #ddd;
@@ -914,32 +923,32 @@ body #tinymce .mce-content-body {
     text-align: center !important;
 }
 
-.tabsummary #downloadsbrowse div.row:last-child h4 {
-    font-size: 0;
-}
+    .tabsummary #downloadsbrowse div.row:last-child h4 {
+        font-size: 0;
+    }
 
-.tabsummary #downloadsbrowse div.row:last-child a {
-    width: auto;
-    margin: 0 5px;
-    padding: 7px 12px;
-    border-radius: 4px;
-    background: transparent !important;
-    border: 1px solid #333333;
-    color: #DDD !important;
-    font-weight: normal;
-    font-size: 12px;
-    letter-spacing: 0.05rem;
-    text-align: center;
-    text-decoration: none;
-    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
-}
+    .tabsummary #downloadsbrowse div.row:last-child a {
+        width: auto;
+        margin: 0 5px;
+        padding: 7px 12px;
+        border-radius: 4px;
+        background: transparent !important;
+        border: 1px solid #333333;
+        color: #DDD !important;
+        font-weight: normal;
+        font-size: 12px;
+        letter-spacing: 0.05rem;
+        text-align: center;
+        text-decoration: none;
+        transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+    }
 
-.tabsummary #downloadsbrowse div.row:last-child a:hover {
-    background: rgba(255,255,255,0.1) !important;
-    color: #fff !important;
-    border: 1px solid #ac0000;
-    cursor: pointer;
-}
+        .tabsummary #downloadsbrowse div.row:last-child a:hover {
+            background: rgba(255,255,255,0.1) !important;
+            color: #fff !important;
+            border: 1px solid #ac0000;
+            cursor: pointer;
+        }
 
 div.normalbox form.filter {
     background-color: transparent;
@@ -949,120 +958,121 @@ div.normalbox form.filter {
     padding: 5px 10px;
 }
 
-div.normalbox form.filter input {
-    height: 25px;
-    width: 100%;
-    border: 1px solid #333333;
-    margin: 10px 10px 15px;
-    width: -webkit-fill-available;
-    place-items: baseline;
-    float: left;
-    order: 1;
-    font-size: inherit;
-}
+    div.normalbox form.filter input {
+        height: 25px;
+        width: 100%;
+        border: 1px solid #333333;
+        margin: 10px 10px 15px;
+        width: -webkit-fill-available;
+        place-items: baseline;
+        float: left;
+        order: 1;
+        font-size: inherit;
+    }
 
-div.normalbox form.filter div.buttons {
-    display: inline-flex;
-    width: auto;
-    order: 3;
-    height: 25px;
-    margin-left: auto;
-}
+    div.normalbox form.filter div.buttons {
+        display: inline-flex;
+        width: auto;
+        order: 3;
+        height: 25px;
+        margin-left: auto;
+    }
 
-div.normalbox form.filter div.buttons a {
-    width: 100px;
-    margin: 0 5px;
-    padding: 3px 0 0 0;
-    border-radius: 4px;
-    background: transparent !important;
-    border: 1px solid #333333;
-    color: #DDD;
-    font-weight: normal;
-    font-size: 12px;
-    letter-spacing: 0.05rem;
-    line-height: 17px;
-    text-align: center;
-    text-decoration: none;
-    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
-}
+        div.normalbox form.filter div.buttons a {
+            width: 100px;
+            margin: 0 5px;
+            padding: 3px 0 0 0;
+            border-radius: 4px;
+            background: transparent !important;
+            border: 1px solid #333333;
+            color: #DDD;
+            font-weight: normal;
+            font-size: 12px;
+            letter-spacing: 0.05rem;
+            line-height: 17px;
+            text-align: center;
+            text-decoration: none;
+            transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+        }
 
-div.normalbox form.filter div.buttons a:hover {
-    background: rgba(255,255,255,0.1) !important;
-    color: #fff !important;
-    border: 1px solid #ac0000;
-    cursor: pointer;
-}
+            div.normalbox form.filter div.buttons a:hover {
+                background: rgba(255,255,255,0.1) !important;
+                color: #fff !important;
+                border: 1px solid #ac0000;
+                cursor: pointer;
+            }
 
-div.normalbox form.filter div.buttons input {
-    width: 100px;
-    height: 25px;
-    margin: 0 10px 0 10px;
-    border-radius: 4px;
-    background: transparent !important;
-    border: 1px solid #333333;
-    color: #DDD;
-    font-weight: normal;
-    font-size: 12px;
-    letter-spacing: 0.05rem;
-    color: #DDD;
-    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
-}
+        div.normalbox form.filter div.buttons input {
+            width: 100px;
+            height: 25px;
+            margin: 0 10px 0 10px;
+            border-radius: 4px;
+            background: transparent !important;
+            border: 1px solid #333333;
+            color: #DDD;
+            font-weight: normal;
+            font-size: 12px;
+            letter-spacing: 0.05rem;
+            color: #DDD;
+            transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+        }
 
-div.normalbox form.filter div.buttons input:hover {
-    background: rgba(255,255,255,0.1) !important;
-    color: #fff;
-    border: 1px solid #ac0000;
-}
+            div.normalbox form.filter div.buttons input:hover {
+                background: rgba(255,255,255,0.1) !important;
+                color: #fff;
+                border: 1px solid #ac0000;
+            }
 
-div.normalbox form.filter select {
-    width: 100px;
-    height: 25px;
-    font-size: inherit;
-    margin-bottom: 0;
-    margin-left: 10px;
-    padding: 4px;
-    background: transparent;
-    border: 1px solid #333333;
-    border-radius: 4px;
-    color: #ddd;
-    order: 2;
-    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
-}
+    div.normalbox form.filter select {
+        width: 100px;
+        height: 25px;
+        font-size: inherit;
+        margin-bottom: 0;
+        margin-left: 10px;
+        padding: 4px;
+        background: transparent;
+        border: 1px solid #333333;
+        border-radius: 4px;
+        color: #ddd;
+        order: 2;
+        transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+    }
 
-div.normalbox form.filter select:hover {
-    background: rgba(255,255,255,0.1) !important;
-    color: #fff;
-    border: 1px solid #ac0000;
-    cursor: pointer;
-}
+        div.normalbox form.filter select:hover {
+            background: rgba(255,255,255,0.1) !important;
+            color: #fff;
+            border: 1px solid #ac0000;
+            cursor: pointer;
+        }
 
-div.normalbox form.filter select option {
-    background: #161616;
-    color: #ddd;
-    font-weight: normal !important;
-    padding: 3px 5px !important;
-}
+        div.normalbox form.filter select option {
+            background: #161616;
+            color: #ddd;
+            font-weight: normal !important;
+            padding: 3px 5px !important;
+        }
 
 #downloadsbrowse .row.rowcontent,
 #downloadsbrowse .row.rowcontent .content {
     height: 90px;
 }
 
-#downloadsbrowse .row.rowcontent .content {
-    display: flex !important;
-    flex-direction: column;
-    float: left;
-    margin-left: 10px;
-    width: 460px;
-}
+    #downloadsbrowse .row.rowcontent .content {
+        display: flex !important;
+        flex-direction: column;
+        float: left;
+        margin-left: 10px;
+        width: 460px;
+    }
 
 #downloadsbrowse .rowcontent {
     border-top: 1px solid rgb(0 0 0 / 50%) !important;
     box-shadow: inset 0 1px 0 #292929;
 }
-#downloadsbrowse .rowcontent:nth-last-child(2) {
-    border-bottom: none;
-}
+
+    #downloadsbrowse .rowcontent:nth-last-child(2) {
+        border-bottom: none;
+    }
 
 #downloadsbrowse div.normalbox div.table h4,
 #downloadsbrowse div.normalbox div.table span.heading {
@@ -1080,36 +1090,36 @@ div.normalbox form.filter select option {
     font-weight: bold;
 }
 
-#downloadsbrowse span.subheading a {
-    margin-left: 10px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/pin_icon.svg) no-repeat;
-    background-size: 10px 10px;
-    background-position: 4px 4px;
-    position: absolute;
-    right: 0;
-    transition: color 0.3s ease-out, background 0.3s ease-out;
-}
+    #downloadsbrowse span.subheading a {
+        margin-left: 10px;
+        background: url(https://media.moddb.com/images/mods/1/51/50389/profile/pin_icon.svg) no-repeat;
+        background-size: 10px 10px;
+        background-position: 4px 4px;
+        position: absolute;
+        right: 0;
+        transition: color 0.3s ease-out, background 0.3s ease-out;
+    }
 
-#downloadsbrowse span.subheading a:hover {
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/pin_icon_hover.svg) no-repeat;
-    background-size: 10px 10px;
-    background-position: 4px 4px;
-}
+        #downloadsbrowse span.subheading a:hover {
+            background: url(https://media.moddb.com/images/mods/1/51/50389/profile/pin_icon_hover.svg) no-repeat;
+            background-size: 10px 10px;
+            background-position: 4px 4px;
+        }
 
-#downloadsbrowse span.subheading a[title="Unpin"] {
-    margin-left: 10px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Icon.svg) no-repeat;
-    background-size: 12px 12px;
-    background-position: 4px 2px;
-    transition: color 0.3s ease-out, background 0.3s ease-out;
-}
+        #downloadsbrowse span.subheading a[title="Unpin"] {
+            margin-left: 10px;
+            background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Icon.svg) no-repeat;
+            background-size: 12px 12px;
+            background-position: 4px 2px;
+            transition: color 0.3s ease-out, background 0.3s ease-out;
+        }
 
-#downloadsbrowse span.subheading a[title="Unpin"]:hover {
-    margin-left: 10px;
-    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat;
-    background-size: 12px 12px;
-    background-position: 4px 2px;
-}
+            #downloadsbrowse span.subheading a[title="Unpin"]:hover {
+                margin-left: 10px;
+                background: url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat;
+                background-size: 12px 12px;
+                background-position: 4px 2px;
+            }
 
 #downloadsbrowse div.content span.date {
     text-transform: uppercase;
@@ -1149,9 +1159,9 @@ div.normalbox div.table a.image {
     padding: 20px 10px 20px 14px;
 }
 
-#downloadsbrowse .row:hover {
-    background: #191919 !important;
-}
+    #downloadsbrowse .row:hover {
+        background: #191919 !important;
+    }
 
 .tabdownloads #downloadsbrowse span:nth-child(2) {
     position: revert !important;
@@ -1197,14 +1207,14 @@ div.normalbox div.table div.rowsort {
     padding: 0 10px 0 14px !important;
 }
 
-div.normalbox div.table div.rowsort .content {
-    margin-left: 0;
-}
+    div.normalbox div.table div.rowsort .content {
+        margin-left: 0;
+    }
 
-div.normalbox div.table div.rowsort a{
-    font-weight: 400;
-    transition: background 0.3s ease-out, color 0.3s ease-out;
-}
+    div.normalbox div.table div.rowsort a {
+        font-weight: 400;
+        transition: background 0.3s ease-out, color 0.3s ease-out;
+    }
 
 a.descicon {
     background: url(https://media.moddb.com/images/mods/1/51/50389/profile/caret_down_icon.svg) no-repeat;
@@ -1239,27 +1249,27 @@ div.normalbox div.table div.row {
     background-position: center;
 }
 
-.emailpromo:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/mail-icon-hover.png);
-}
+    .emailpromo:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/mail-icon-hover.png);
+    }
 
 .csstooltip:hover:before {
     display: none;
 }
 
-span.options a{
-    border:none;
+span.options a {
+    border: none;
     text-indent: 0;
     width: auto;
     padding-left: 18px;
     margin-left: 15px;
 }
 
-span.options a:hover{
-    padding-left: 18px;
-    margin-left: 15px;
-    padding-right: 0;
-}
+    span.options a:hover {
+        padding-left: 18px;
+        margin-left: 15px;
+        padding-right: 0;
+    }
 
 div.tooltip {
     background: transparent;
@@ -1330,7 +1340,7 @@ div.normalbox div.tableform textarea {
 
 
 div.normalbox div.table h4 a, div.normalbox div.table span.heading a {
-	color: #fff;
+    color: #fff;
 }
 
 a {
@@ -1363,7 +1373,7 @@ div.normalbox div.table div.row:nth-of-type(2n-1) {
 }
 
 body {
-     color: #DDDDDD;
+    color: #DDDDDD;
 }
 
 #body {
@@ -1373,13 +1383,13 @@ body {
 
 
 .previewform {
-	background: #000;
+    background: #000;
 }
 
 
 div.normalbox div.tablerelated a.heading {
-	border-bottom-color: #888;
-	color: #fff;
+    border-bottom-color: #888;
+    color: #fff;
 }
 
 div#modsbrowserecommended {
@@ -1396,41 +1406,41 @@ textarea {
     padding: 5px;
 }
 
-textarea:hover {
-    outline: 1px solid #ac0000 !important;
-}
+    textarea:hover {
+        outline: 1px solid #ac0000 !important;
+    }
 
-:focus,
-:focus-visible,
-input:focus,
-input:focus-visible,
-input:active,
-textarea:focus,
-textarea:focus-visible,
-textarea:active {
-    overflow: visible !important;
-    outline: 1px solid #ac0000 !important;
-    box-shadow: inset 1px 1px 16px 0 rgb(255 0 0 / 8%), inset -1px -1px 16px 0 rgb(255 0 0 / 8%) !important;
-    color: #ddd !important;
-}
+    :focus,
+    :focus-visible,
+    input:focus,
+    input:focus-visible,
+    input:active,
+    textarea:focus,
+    textarea:focus-visible,
+    textarea:active {
+        overflow: visible !important;
+        outline: 1px solid #ac0000 !important;
+        box-shadow: inset 1px 1px 16px 0 rgb(255 0 0 / 8%), inset -1px -1px 16px 0 rgb(255 0 0 / 8%) !important;
+        color: #ddd !important;
+    }
 
 div.buttons input {
     box-shadow: none !important;
 }
 
-#embedbuttons textarea.text{
+#embedbuttons textarea.text {
     overflow-y: hidden !important;
     height: 50px !important;
     resize: none;
 }
 
-#embedbuttons textarea.text:active,
-#embedbuttons textarea.text:focus,
-#embedbuttons textarea.text:focus-visible {
-    overflow-y: auto !important;
-    -webkit-outline-width: 0;
-    outline-width: 0;
-}
+    #embedbuttons textarea.text:active,
+    #embedbuttons textarea.text:focus,
+    #embedbuttons textarea.text:focus-visible {
+        overflow-y: auto !important;
+        -webkit-outline-width: 0;
+        outline-width: 0;
+    }
 
 div.span-300-alt div.normalbox div.tablemenu span.summary {
     width: auto !important;
@@ -1454,9 +1464,9 @@ div.normalbox div.tableform input.text {
     padding-left: 6px;
 }
 
-div.normalbox div.tableform input.text:hover {
-    outline: 1px solid #ac0000 !important;
-}
+    div.normalbox div.tableform input.text:hover {
+        outline: 1px solid #ac0000 !important;
+    }
 
 div.normalbox div.tablemenu span.summary input.text {
     color: #888;
@@ -1479,24 +1489,24 @@ div.normalbox div.tableform div.buttons {
     padding-top: 0;
 }
 
-div.normalbox div.tableform div.buttons input {
-    padding: 5px 40px;
-    background: transparent !important;
-    border: 1px solid #333333;
-    border-radius: 4px;
-    color: #DDD;
-    font-weight: normal;
-    letter-spacing: 0.05rem;
-    font-size: 12px;
-    margin: 0.5rem;
-    transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
-}
+    div.normalbox div.tableform div.buttons input {
+        padding: 5px 40px;
+        background: transparent !important;
+        border: 1px solid #333333;
+        border-radius: 4px;
+        color: #DDD;
+        font-weight: normal;
+        letter-spacing: 0.05rem;
+        font-size: 12px;
+        margin: 0.5rem;
+        transition: color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out, outline 0.3s ease-out;
+    }
 
-div.normalbox div.tableform div.buttons input:hover {
-    background: rgba(255,255,255,0.1) !important;
-    color: #fff;
-    border: 1px solid #ac0000;
-}
+        div.normalbox div.tableform div.buttons input:hover {
+            background: rgba(255,255,255,0.1) !important;
+            color: #fff;
+            border: 1px solid #ac0000;
+        }
 
 .amcharts-main-div text {
     fill: #bbb !important;
@@ -1546,9 +1556,9 @@ div.normalbox div.tableform div.buttons input:hover {
     box-shadow: none !important;
 }
 
-.amChartsButtonSelected:hover {
-    background: rgba(255,0,0,0.1) !important;
-}
+    .amChartsButtonSelected:hover {
+        background: rgba(255,0,0,0.1) !important;
+    }
 
 .amChartsPeriodSelector .amChartsButton:hover {
     background: rgba(255,255,255,0.1);
@@ -1584,11 +1594,11 @@ textarea#profilecss {
     margin: 0 1rem 1rem 1rem;
 }
 
-.dropzoneuploader:hover {
-    background: #003500;
-    border: 2px dashed #007000;
-    color: #FFF;
-}
+    .dropzoneuploader:hover {
+        background: #003500;
+        border: 2px dashed #007000;
+        color: #FFF;
+    }
 
 .dropzonepreview {
     margin: 1.5rem 0 1rem 0;
@@ -1600,19 +1610,19 @@ textarea#profilecss {
     border: 1px solid #333333;
 }
 
-.dropzone .dz-preview:hover {
-    border: 1px solid #ac0000;
-}
+    .dropzone .dz-preview:hover {
+        border: 1px solid #ac0000;
+    }
 
-.dropzone .dz-preview .dz-image img {
-    border-radius: 4px;
-    padding: 20px;
-    max-width: 100%;
-}
+    .dropzone .dz-preview .dz-image img {
+        border-radius: 4px;
+        padding: 20px;
+        max-width: 100%;
+    }
 
-.dropzone .dz-preview:hover .dz-remove {
-    width: 100%;
-}
+    .dropzone .dz-preview:hover .dz-remove {
+        width: 100%;
+    }
 
 #profilesubmit {
     margin-bottom: 1rem;
@@ -1650,14 +1660,14 @@ textarea#commentsummary {
     background-size: 16px !important;
 }
 
-#commentsubmit:hover {
-    background: rgba(255,255,255,0.1) url(https://media.moddb.com/images/mods/1/51/50389/profile/comment_icon.svg) !important;
-    background-repeat: no-repeat !important;
-    background-position: 15px 7px !important;
-    background-size: 16px !important;
-    border: 1px solid #ff0000;
-    color: #ddd !important;
-}
+    #commentsubmit:hover {
+        background: rgba(255,255,255,0.1) url(https://media.moddb.com/images/mods/1/51/50389/profile/comment_icon.svg) !important;
+        background-repeat: no-repeat !important;
+        background-position: 15px 7px !important;
+        background-size: 16px !important;
+        border: 1px solid #ff0000;
+        color: #ddd !important;
+    }
 
 .verifiedicon {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/cncneticon.png) !important;
@@ -1674,42 +1684,42 @@ span.summary.summarypromo a {
     background-size: contain;
 }
 
-span.summary.summarypromo a:hover {
-    background-position: bottom;
-    background-size: contain;
-}
+    span.summary.summarypromo a:hover {
+        background-position: bottom;
+        background-size: contain;
+    }
 
 a.facebookpromo.csstooltip {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_icon.svg);
 }
 
-a.facebookpromo.csstooltip:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_hover.svg);
-}
+    a.facebookpromo.csstooltip:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_hover.svg);
+    }
 
 a.twitterpromo.csstooltip {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_icon.svg);
 }
 
-a.twitterpromo.csstooltip:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/t_hover.svg);
-}
+    a.twitterpromo.csstooltip:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/t_hover.svg);
+    }
 
 a.emailpromo.csstooltip {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/envelope_icon.svg);
 }
 
-a.emailpromo.csstooltip:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/envelope_hover.svg);
-}
+    a.emailpromo.csstooltip:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/envelope_hover.svg);
+    }
 
 a.redditpromo.csstooltip {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/reddit_icon.svg);
 }
 
-a.redditpromo.csstooltip:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/reddit_hover.svg);
-}
+    a.redditpromo.csstooltip:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/reddit_hover.svg);
+    }
 
 .twittericon, .steamicon, .facebookicon, .googleicon {
     background: transparent no-repeat;
@@ -1725,30 +1735,30 @@ a.redditpromo.csstooltip:hover {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_grey.svg);
 }
 
-.twittericon:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_icon.svg);
-}
+    .twittericon:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/twitter_login_icon.svg);
+    }
 
 .steamicon {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_grey.svg);
 }
 
-.steamicon:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_icon.svg);
-}
+    .steamicon:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/steam_login_icon.svg);
+    }
 
 .facebookicon {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_grey.svg);
 }
 
-.facebookicon:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_icon.svg);
-}
+    .facebookicon:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/facebook_login_icon.svg);
+    }
 
 .googleicon {
     background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_grey.svg);
 }
 
-.googleicon:hover {
-    background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_icon.svg);
-}
+    .googleicon:hover {
+        background-image: url(https://media.moddb.com/images/mods/1/51/50389/profile/google_login_icon.svg);
+    }
