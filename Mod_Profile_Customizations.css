@@ -316,6 +316,29 @@ div.imagebox {
         opacity: 1.0;
     }
 
+div.normalbox .title a[rel="scalePhotos=false"]:before {
+    content: 'View Larger';
+    font-size: 10px;
+    font-weight: bold;
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/imagezoom_icon.svg) no-repeat;
+    background-position: 0 2px;
+    background-size: 11px;
+    padding-left: 14px;
+    letter-spacing: 0.03em;
+    height: 16px;
+    display: inline-block;
+}
+
+div.normalbox .title a:hover[rel="scalePhotos=false"]:before {
+    background: url(https://media.moddb.com/images/mods/1/51/50389/profile/imagezoom_hover.svg) no-repeat;
+    background-position: 0 2px;
+    background-size: 11px;
+}
+
+div.normalbox .title a[rel="scalePhotos=false"] {
+    font-size: 0;
+}
+
 #cboxLoadedContent {
     background: transparent;
 }
@@ -324,6 +347,20 @@ div.imagebox {
     max-width: 95vw;
     max-height: 95vh;
 }
+
+#cboxClose {
+    background: rgba(0,0,0,0.75) url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Icon.svg) no-repeat top center;
+    background-size: 12px;
+    width: 32px;
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 0 0 0 8px;
+}
+
+    #cboxClose:hover {
+        background: rgba(0,0,0,0.75) url(https://media.moddb.com/images/mods/1/51/50389/profile/Delete_Hover.svg) no-repeat top center;
+        background-size: 12px;
+    }
 
 div.normalbox div.mediaviewer div.media {
     padding: 0 0 2px 0;
