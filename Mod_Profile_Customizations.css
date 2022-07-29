@@ -1132,8 +1132,6 @@ div.normalbox form.filter {
         background: url(https://media.moddb.com/images/mods/1/51/50389/profile/pin_icon.svg) no-repeat;
         background-size: 10px 10px;
         background-position: 4px 4px;
-        position: absolute;
-        right: 0;
         transition: color 0.3s ease-out, background 0.3s ease-out;
     }
 
